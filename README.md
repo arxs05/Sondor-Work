@@ -14,9 +14,9 @@ Getting Started:
             git clone https://github.com/your-username/your-repo-name.git
 
 
-    Use code with caution.
+Use code with caution.
 
-    Open the project: Open the index.html file in your preferred web browser.
+Open the project: Open the index.html file in your preferred web browser.
 
 Note: This is just a basic template. It will be customized further to include more specific colors, font and style according to Figma.
 
