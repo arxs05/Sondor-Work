@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #4A4A4A;
+    --primary-color: #121117;
     --secondary-color: #757575;
-    --accent-color: #6B5B95;
+    --accent-color:#514442;
     --background-color: #F8F8F8;
     --border-color: #E5E5E5;
 }
@@ -20,15 +20,13 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 /* Navigation */
 nav {
-    background-color: white;
-    border-bottom: 1px solid var(--border-color);
     padding: 1rem 0;
 }
 
@@ -52,7 +50,7 @@ nav {
 .nav-links a {
     color: var(--primary-color);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .login-btn {
@@ -81,7 +79,7 @@ main {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .profile-image {
@@ -143,7 +141,7 @@ main {
 }
 
 .tag {
-    background: #F3F4F6;
+    background: #E4E1DD;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -157,6 +155,12 @@ main {
     gap: 1rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--border-color);
+
+}
+
+.tab a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .tab {
@@ -167,19 +171,27 @@ main {
     color: var(--secondary-color);
     cursor: pointer;
     font-weight: 500;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
 }
 
-.tab.active {
+.tab a:hover {
+    font-weight: bold;
     color: var(--accent-color);
-    border-bottom-color: var(--accent-color);
+}
+
+.tab a:active {
+    font-weight: bold;
+    color: var(--accent-color);
 }
 
 /* Content */
 .Content {
     background: white;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 21px;
     margin-bottom: 2rem;
+    box-shadow: 5px 5px 5px 2px #12111726;
 }
 
 .Content h3 {
@@ -212,9 +224,14 @@ p.readmore {
 
 /* Sidebar */
 .profile-sidebar {
-    margin-top: 5rem;
+    margin-top: 3rem;
     position: sticky;
     top: 2rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 21px;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 5px 2px #12111726;
 }
 
 .video-preview {
@@ -237,14 +254,13 @@ p.readmore {
     width: 100%;
     padding: 1rem;
     border-radius: 6px;
-    border: none;
     font-weight: 500;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .btn.primary {
@@ -274,6 +290,7 @@ p.readmore {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+    
 }
 
 .footer-brand {
