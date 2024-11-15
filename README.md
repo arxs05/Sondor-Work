@@ -3,7 +3,7 @@
 Project Title: Coaches HTML-CSS page
 
 Description:
-This repository contains the initial HTML and CSS structure for Sondor. This is a work-in-progress and will be updated as the project evolves.
+This repository contains the initial HTML and CSS structure for Sondor. The website has been completed, only icons and fonts have NOT be imported. Mobile responsive version is in progress.
 
 Getting Started:
 
