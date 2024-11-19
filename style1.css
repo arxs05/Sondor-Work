@@ -6,25 +6,36 @@
     --border-color: #E5E5E5;
 }
 
+@font-face {
+    font-family: "Instrument Sans";
+    src: url(./assests/Instrument_Sans/InstrumentSans-Italic-VariableFont_wdth,wght.ttf) format('truetype');
+    src: url(./assests/Instrument_Sans/InstrumentSans-VariableFont_wdth\,wght.ttf) format('truetype');
+
+    font-family: 'Figtree';
+    src: url(./assests/Figtree-VariableFont_wght.ttf) format('truetype');
+    font-weight: 100 900; 
+    font-stretch: 75% 125%;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Instrument Sans';
-    src: url(./assests/Instrument_Sans\(1\));
+body {  
+    font-family: "Instrument Sans", sans-serif , 'Figtree';
     background-color: var(--background-color);
     color: var(--primary-color);
     line-height: 1.6;
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 /* Navigation */
 nav {
@@ -67,45 +78,95 @@ nav {
 /* Hero section */
 .hero {
     max-width: 1200px;
-    margin: 4rem auto;
+    margin: 1rem auto;
     padding: 0 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
     align-items: center;
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 45px;
     line-height: 1.2;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Figtree';
+    font-weight: 500;
+
 }
 
+.hero-content p {
+    font-size: 14px;
+    font-family: 'Figtree';
+
+}
+
+.hero-content a{
+    text-decoration: underline;
+    color: #121117;
+    font-weight: 400;
+    font-size: 14px ;
+}
+
+.cta-info {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Figtree';
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+
 .cta-button {
-    margin-top: 2rem;
-    padding: 1rem 2rem;
-    background: #333;
+    padding: 0.7rem 2rem;
+    background: var(--accent-color);
     color: white;
     border: none;
-    border-radius: 4px;
-    font-size: 1.1rem;
+    border-radius: 7px;
+    font-size: 16px;
     cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.featured-coach{
+    padding: 3rem;
 }
 
 .coach-card {
-    background: #f8f8f8;
+    background: #fafafa;
     border-radius: 12px;
+    box-shadow: 5px 5px 5px 2px #12111726;
     overflow: hidden;
+    height: auto;
+    width: 330px;
+}
+
+.coach-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 .coach-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    border-radius: 12px;
+    height: 300px;
+    width: 280px;
+    object-fit: cover;  
+    padding-bottom: 1rem;
 }
 
 .coach-info {
     padding: 1.5rem;
+}
+
+.coach-info h3{
+    font-size: 24px;
+    font-weight: 200;
+    padding-bottom: 0.7rem;
+}
+
+.coach-info p{
+    font-size: 12px;
+    font-weight: 200;
 }
 
 /* Coaches list section */
