@@ -6,24 +6,24 @@
     <title>Guides Page</title>
     <link rel="stylesheet" href="style1.css">
 </head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <div class="container">
-            <div class="nav-content">
-                <div class="nav-left">
-                    <h1>SONDOR</h1>
-                    <div class="nav-links">
-                        <a href="#">Find a guide</a>
-                        <a href="#">Become a guide</a>
-                        <a href="#">Discovers</a>
-                    </div>
-                </div>
-                <button class="login-btn">Log In</button>
-            </div>
-        </div>
-    </nav>
 
+    <!-- Navigation -->
+<nav>
+    <div class="container">
+        <div class="nav-content">
+            <div class="nav-left">
+                <img src= "assests/Logo_black.svg">
+                <div class="nav-links">
+                    <a href="#">Find a guide</a>
+                    <a href="#">Become a guide</a>
+                    <a href="#">Discover</a>
+                </div>
+            </div>
+            <button class="login-btn">Log In</button>
+        </div>  
+    </div>
+</nav>
+<body>
     <!--Main Content-->
     <main class ="container">
         <section class="hero">
@@ -46,13 +46,14 @@
                                 <img src ="./assests/Just-logo-black.svg">
                             </div>    
                         </div>
-                        <img src="./assests/laura_image.png" alt="Coach profile" class="coach-image">
+                        <img src="./assests/laura_image.png" alt="Coach profile" class="hero-image">
                         <p>Business Guide</p>
                     </div>
                 </div>
             </div>
         </section>
 
+<!--Filters-->
         <section class="coaches-list">
             <div class="filters">
                 <select class="filter-select">
@@ -68,26 +69,77 @@
                     <option>Career Coaching</option>
                 </select>
             </div>
+        <p class="verified-coaches">400 Verified Coaches available</p>
 
+<!--COACH CARD-->
             <div class="coaches-grid">
-                <div class="coach-item">
-                    <img src="https://placehold.co/100" alt="Coach" class="coach-avatar">
-                    <div class="coach-details">
-                        <h3>Sara K.</h3>
-                        <p>Leadership & Communication</p>
-                        <p class="experience">15+ years of experience</p>
-                        <button class="book-button">Book session</button>
+                <div class="coach-image">
+                    <img src="./assests/coach-card-img.png" alt="Coach">
+                </div>
+                <div class="coach-content">
+                    <div class ="coach-name">    
+                        <p>Sara K.</p>
+                        <img src="./assests/Verified tick.svg">
+                        <img src="./assests/us.svg.svg">
+                    </div>
+                    <div class ="info-tag">
+                        <p>Career</p>
+                    </div>
+                    <div class ="coach-usp">
+                        <img src="./assests/person-icon.svg" class="icon">
+                        <span>Leadership . Communication</span>
+                    </div>
+                    <div class ="coach-usp">
+                        <img src="./assests/language-icon.svg" class="icon">
+                        <span>English,Spanish,German</span>
+                    </div>
+                    <div class ="coach-usp">
+                        <p>Leadership and Communication Effectiveness Coach</p>
+                    </div>
+                    <div class ="coach-cta">
+                         <p>I coach you in the "people part of your job! . As a coach, I have 20 years of experience working </p>
+                         <a href="#">Read more</a>
                     </div>
                 </div>
+                <div class = "coach-buttons">
+                    <button class="book-button1">Book session</button>
+                    <button class="book-button2">Send message</button>
+                </div>
+            </div>
 
-                <div class="coach-item">
-                    <img src="https://placehold.co/100" alt="Coach" class="coach-avatar">
-                    <div class="coach-details">
-                        <h3>Cindy K.</h3>
-                        <p>Career Development</p>
-                        <p class="experience">10+ years of experience</p>
-                        <button class="book-button">Book session</button>
+
+            <div class="coaches-grid">
+                <div class="coach-image">
+                    <img src="./assests/coach-card-img.png" alt="Coach">
+                </div>
+                <div class="coach-content">
+                    <div class ="coach-name">    
+                        <p>Sara K.</p>
+                        <img src="./assests/Verified tick.svg">
+                        <img src="./assests/us.svg.svg">
                     </div>
+                    <div class ="info-tag">
+                        <p>Career</p>
+                    </div>
+                    <div class ="coach-usp">
+                        <img src="./assests/person-icon.svg" class="icon">
+                        <span>Leadership . Communication</span>
+                    </div>
+                    <div class ="coach-usp">
+                        <img src="./assests/language-icon.svg" class="icon">
+                        <span>English,Spanish,German</span>
+                    </div>
+                    <div class ="coach-usp">
+                        <p>Leadership and Communication Effectiveness Coach</p>
+                    </div>
+                    <div class ="coach-cta">
+                         <p>I coach you in the "people part of your job! . As a coach, I have 20 years of experience working </p>
+                         <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class = "coach-buttons">
+                    <button class="book-button1">Book session</button>
+                    <button class="book-button2">Send message</button>
                 </div>
             </div>
         </section>
@@ -102,22 +154,22 @@
                 <!-- Footer-left -->
                 <div class="footer-left">
                     <div class="footer-logo">
-                        <img src="path-to-logo.svg" alt="Sondor" class="logo">
+                        <img src="./assests/Logo_white.svg" alt="Sondor" class="logo">
                         <p class="tagline">Sondor is connecting Hearts.Souls.You!</p>
                     </div>
                     <!-- Social Links -->
                     <div class="social-links">
                         <a href="#" class="social-link">
-                            <img src="facebook-icon.svg" alt="Facebook">
+                            <img src="./assests/Social Media.svg" alt="Facebook">
                         </a>
                         <a href="#" class="social-link">
-                            <img src="twitter-icon.svg" alt="Twitter">
+                            <img src="./assests/Social Media-1.svg" alt="Twitter">
                         </a>
                         <a href="#" class="social-link">
-                            <img src="linkedin-icon.svg" alt="LinkedIn">
+                            <img src="./assests/Social Media-2.svg" alt="LinkedIn">
                         </a>
                         <a href="#" class="social-link">
-                            <img src="instagram-icon.svg" alt="Instagram">
+                            <img src="./assests/Social Media-3.svg" alt="Instagram">
                         </a>
                     </div>
                     <!-- footer Links -->
@@ -126,10 +178,10 @@
                             <h3>Apps</h3>
                             <div class="app-stores">
                                 <a href="#" class="store-button">
-                                    <img src="app-store.png" alt="Download on App Store">
+                                    <img src="./assests/app_store_badge_en.svg" alt="Download on App Store">
                                 </a>
                                 <a href="#" class="store-button">
-                                    <img src="google-play.png" alt="Get it on Google Play">
+                                    <img src="./assests/google_play_badge.svg" alt="Get it on Google Play">
                                 </a>
                             </div>
                         </div>
